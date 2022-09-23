@@ -7,11 +7,11 @@ Some common Helm commands for you
 
 ```
 # Add repo before using
-$ helm repo add nhtua https://raw.githubusercontent.com/daohung01/charts/master/
-"nhtua" has been added to your repositories
+$ helm repo add daohung01 https://raw.githubusercontent.com/daohung01/charts/master/
+"daohung01" has been added to your repositories
 
 # Search for charts, or list all the charts by repo's name
-$ helm search repo nhtua
+$ helm search repo daohung01
 NAME                	CHART VERSION	APP VERSION	DESCRIPTION
 daohung01/ambassador-ssl	0.1.0        	1.0.0      	A Helm chart for Kubernetes
 
