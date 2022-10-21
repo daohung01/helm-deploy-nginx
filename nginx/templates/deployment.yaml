@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: hung-argocd
   name: {{ .Release.Name }}
   labels: {{ include "common.labels" . | nindent 4 }}
     
